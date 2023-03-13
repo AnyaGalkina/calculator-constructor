@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react';
 
-import { getCurrentValue, useAppSelector } from '../../../../store';
+import { useAppSelector, getCurrentValue } from '../../../../store';
 
 import styles from './Display.module.css';
 
