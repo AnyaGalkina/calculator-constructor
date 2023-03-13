@@ -1,0 +1,17 @@
+.display {
+    width: 224px;
+    height: 52px;
+    background: #F3F4F6;
+    border-radius: 6px;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: right;
+    color: #111827;
+    padding: 4px;
+}
+
+.smallSizeFont{
+    font-size: 19px;
+    line-height: 22px;
+}

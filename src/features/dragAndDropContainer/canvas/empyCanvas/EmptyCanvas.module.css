@@ -1,0 +1,33 @@
+.canvas{
+    /*width: 244px;*/
+    height: 448px;
+    border: 2px dashed #C4C4C4;
+    border-radius: 6px;
+    position: relative;
+    z-index: -1;
+}
+
+.canvasDraggingMode{
+    background: #F0F9FF;
+}
+
+.infoContainer{
+    position: absolute;
+    width: 127px;
+    height: 84px;
+    left: calc(50% - 127px/2);
+    top: calc(50% - 84px/2);
+    display: flex;
+    flex-direction: column;
+}
+
+.blueText{
+    line-height: 17px;
+    color: #5D5FEF;
+}
+
+.grayText {
+    font-size: 12px;
+    font-weight: 400;
+    color: #6B7280;
+}

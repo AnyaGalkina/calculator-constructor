@@ -1,0 +1,21 @@
+.constructorItemBlock {
+    margin: 0 0 16px;
+    position: relative;
+}
+
+.displayContainer {
+    cursor: no-drop;
+}
+
+.line::before{
+    content: '';
+    width: 244px;
+    height: 1px;
+    background-color: #5D5FEF;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    position: absolute;
+}
+
+

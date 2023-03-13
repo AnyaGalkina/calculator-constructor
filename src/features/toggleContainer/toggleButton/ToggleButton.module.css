@@ -1,0 +1,26 @@
+.toggleButton {
+    width: 121px;
+    height: 36px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    background: #f3f4f6;
+    border: none;
+}
+
+.activeToggleButton{
+    background: #FFFFFF;
+    border: 1px solid #E2E3E5;
+}
+
+.icon {
+}
+
+
+.activeIcon {
+    color: #5e5fef;
+}

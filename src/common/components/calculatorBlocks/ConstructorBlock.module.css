@@ -1,0 +1,20 @@
+.constructorItemContainer {
+    width: 244px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06), 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 16px;
+}
+
+.draggedBlock{
+    opacity: 50%;
+    pointer-events: none;
+}
+
+.constructorItemBlock {
+    width: 232px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
